@@ -190,6 +190,7 @@ void SysTick_Handler(void)
 */
 void TIMER2_IRQHandler(void)
 {
+    usb_timer_irq();
 }
 
 /*!
