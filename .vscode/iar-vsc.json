@@ -1,0 +1,15 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\IAR\\GD32E103C_Workspace.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\IAR\\GD32E103C_Workspace.eww": {
+      "configs": {
+        "${workspaceFolder}\\IAR\\GD32E103C_Project.ewp": "Debug"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\IAR\\GD32E103C_Project.ewp"
+      }
+    }
+  }
+}

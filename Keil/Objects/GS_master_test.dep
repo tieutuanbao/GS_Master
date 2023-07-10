@@ -1,0 +1,626 @@
+Dependencies for Project 'GS_master', Target 'test': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (..\source\gd32e10x_it.c)(0x64AEE23A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/gd32e10x_it.o -MD)
+I (..\source\gd32e10x_it.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\libs\millis.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usbd_int.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_dev.h)(0x64AED9F2)
+I (..\source\usbd_conf.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_hw.h)(0x64AED9F2)
+F (..\source\hid_keyboard_itf.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/hid_keyboard_itf.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63885718)
+I (..\source\custom_hid_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_enum.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_dev.h)(0x64AED9F2)
+I (..\source\usbd_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\class\hid\usb_hid.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_hw.h)(0x64AED9F2)
+F (..\source\main.c)(0x64AEE356)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/main.o -MD)
+I (..\source\main.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63885718)
+I (..\RTT\RTT\SEGGER_RTT.h)(0x64AED9F2)
+I (..\RTT\Config\SEGGER_RTT_Conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\components\W25Qxxx\W25Q.h)(0x64AED9F2)
+I (..\source\custom_hid_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_enum.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_dev.h)(0x64AED9F2)
+I (..\source\usbd_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\class\hid\usb_hid.h)(0x64AED9F2)
+I (..\libs\delay.h)(0x64AED9F2)
+I (..\components\Internet\DHCP\dhcp.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_hw.h)(0x64AED9F2)
+I (..\components\Ethernet\socket.h)(0x64AED9F2)
+I (..\components\Ethernet\wizchip_conf.h)(0x64AED9F2)
+I (..\components\Ethernet\W5500\w5500.h)(0x64AED9F2)
+F (..\source\custom_hid_core.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/custom_hid_core.o -MD)
+I (..\source\custom_hid_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_enum.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_dev.h)(0x64AED9F2)
+I (..\source\usbd_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\class\hid\usb_hid.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63885718)
+F (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Source\system_gd32e10x.c)(0x64AED9F1)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/system_gd32e10x.o -MD)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+F (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Source\gd32e10x_dma.c)(0x64AED9F1)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/gd32e10x_dma.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63885718)
+F (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Source\gd32e10x_gpio.c)(0x64AED9F1)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/gd32e10x_gpio.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+F (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Source\gd32e10x_misc.c)(0x64AED9F1)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/gd32e10x_misc.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+F (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Source\gd32e10x_rcu.c)(0x64AED9F1)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/gd32e10x_rcu.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+F (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Source\gd32e10x_timer.c)(0x64AED9F1)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/gd32e10x_timer.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+F (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Source\ARM\startup_gd32e10x.s)(0x64AED9F1)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"GD32E10x SETA 1"-o ./objects/startup_gd32e10x.o)
+F (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Source\drv_usb_core.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/drv_usb_core.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_hw.h)(0x64AED9F2)
+F (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Source\drv_usb_dev.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/drv_usb_dev.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_hw.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_dev.h)(0x64AED9F2)
+I (..\source\usbd_conf.h)(0x64AED9F2)
+F (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Source\drv_usbd_int.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/drv_usbd_int.o -MD)
+I (..\source\usbd_conf.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usbd_int.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_dev.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_transc.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_core.h)(0x64AED9F2)
+F (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Source\usbd_core.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/usbd_core.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_dev.h)(0x64AED9F2)
+I (..\source\usbd_conf.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_enum.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_hw.h)(0x64AED9F2)
+F (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Source\usbd_enum.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/usbd_enum.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_enum.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_dev.h)(0x64AED9F2)
+I (..\source\usbd_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x63885718)
+F (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Source\usbd_transc.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/usbd_transc.o -MD)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_enum.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_core.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_regs.h)(0x64AED9F2)
+I (..\source\usb_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4.h)(0x64AED9F1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmInstr.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cmFunc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x64AED9F1)
+I (..\source\gd32e10x_libopt.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x64AED9F1)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\ustd\common\usb_ch9_std.h)(0x64AED9F2)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\driver\Include\drv_usb_dev.h)(0x64AED9F2)
+I (..\source\usbd_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x63885718)
+I (..\GD32E10x_Firmware_Library\GD32E10x_usbfs_library\device\core\Include\usbd_transc.h)(0x64AED9F2)
+F (..\components\Ethernet\wizchip_conf.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/wizchip_conf.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (..\components\Ethernet\wizchip_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\components\Ethernet\W5500\w5500.h)(0x64AED9F2)
+F (..\components\Ethernet\socket.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/socket.o -MD)
+I (..\components\Ethernet\socket.h)(0x64AED9F2)
+I (..\components\Ethernet\wizchip_conf.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\components\Ethernet\W5500\w5500.h)(0x64AED9F2)
+F (..\components\Ethernet\W5500\w5500.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/w5500.o -MD)
+I (..\components\Ethernet\W5500\w5500.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\components\Ethernet\wizchip_conf.h)(0x64AED9F2)
+F (..\libs\delay.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/delay.o -MD)
+I (..\libs\delay.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+F (..\libs\delay.h)(0x64AED9F2)()
+F (..\libs\millis.c)(0x64AED9F2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char-D__EVAL -gdwarf-4 -O1 -ffunction-sections -I ../source -I ../GD32E10x_Firmware_Library/GD32E10x_standard_peripheral/Include -I ../GD32E10x_Firmware_Library/CMSIS/GD/GD32E10x/Include -I ../GD32E10x_Firmware_Library/CMSIS -I ../libs -I ../RTT/RTT -I ../RTT/Config -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/device/core/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/driver/Include -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/common -I ../GD32E10x_Firmware_Library/GD32E10x_usbfs_library/ustd/class/hid -I ../libs/hid -I ../components/Ethernet -I ../components/Ethernet/W5500 -I ../components/Internet/DHCP -I ../components/W25Qxxx-IC:/Users/guing/AppData/Local/Arm/Packs/GigaDevice/GD32E10x_DFP/1.2.1/Device/Include-D__UVISION_VERSION="538" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103V_EVAL -DUSE_USB_FS -D_WIZCHIP_="5500"-o ./objects/millis.o -MD)
+I (..\libs\millis.h)(0x64AED9F2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+F (..\libs\millis.h)(0x64AED9F2)()

@@ -1,0 +1,7 @@
+{
+    "nrf-connect.topdir": "${nrf-connect.sdk:2.2.99-dev3}",
+    "nrf-connect.toolchain.path": "d:\\2.Document\\Nordic\\nRFconnectSDK\\toolchains\\v2.2.99-dev3",
+    "cortex-debug.armToolchainPath.windows": "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin",
+    "cortex-debug.gdbPath.windows": "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-gdb.exe",
+    "cortex-debug.variableUseNaturalFormat": false
+}
